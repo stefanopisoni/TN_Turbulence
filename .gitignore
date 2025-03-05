@@ -1,6 +1,10 @@
 *.npy
 *DS_STORE*
 
+Encoding_and_spectrum/
+fluid_correlations/
+madrid_tutorial.ipynb
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
