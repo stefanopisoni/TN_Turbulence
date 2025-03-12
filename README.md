@@ -8,9 +8,9 @@ For both cases, as quality metrics, we compute the energy spectrum and the diver
 
 We make use of the MPS-based tensnet library: https://github.com/raghav-tii/tensnet.
 
-## Single snapshot compression
+## Snapshots compression
 To carry out our analysis on the compressibility of a single turbulent snapshot, we consider the dataset https://torroja.dmt.upm.es/turbdata/Isotropic/.
 
-## 3D solver
+## 3D evolution
 The 3D time solver is an extension of the 2D solver presented in the paper https://www.nature.com/articles/s42005-024-01623-8#MOESM2. \
 (Note: no mask is required, as the simulations are carried out in a $1024^3$ empty domain.)
