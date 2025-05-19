@@ -389,6 +389,7 @@ def compute_flatness(u_field, max_sep, L):
     for dr in range(1, max_sep+1):
         # Compute increments in the x-direction for all valid grid points.
         diff = u_field[dr:, :, :] - u_field[:-dr, :, :]
+        # diff = u_field[dr:-1, :, :] - u_field[1:-dr, :, :]
         S2 = np.mean(diff**2)
         S4 = np.mean(diff**4)
         flatness.append(S4 / (S2**2))
@@ -412,3 +413,4 @@ plt.ylabel("Flatness (kurtosis)")
 plt.title("Flatness of u–velocity increments vs Separation (log-log scale)")
 plt.legend()
 plt.show()
+# %%
