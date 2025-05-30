@@ -4,6 +4,7 @@
 Encoding_and_spectrum/
 fluid_correlations/
 madrid_tutorial.ipynb
+QTT_optimization/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
