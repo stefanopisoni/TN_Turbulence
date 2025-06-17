@@ -1,6 +1,6 @@
 # Compression, simulation and synthesis of turbulent flows with tensor networks
 Study of 3D fully developed turbulent flows (inviscid and incompressible) in a cubic domain using Tensor Network ansatz.\
-Corresponding paper on the ArXiv: @@@@@.
+Corresponding paper on the ArXiv: https://arxiv.org/abs/2506.05477.
 
 The idea is to conduct a comprehensive analysis on the Matrix product State (MPS)/Tensor Train (TT) ecnoding of turbulent flows.
 In particular, we investigate the compression power of TTs over a single snapshot as well as their ability in representing fluid correlations in time by developing a 3D time integrator.
